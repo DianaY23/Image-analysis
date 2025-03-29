@@ -1,0 +1,484 @@
+/usr/local/lib/python3.11/dist-packages/keras/src/models/functional.py:237: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: ['keras_tensor_25']
+Received: inputs=Tensor(shape=(1, 256, 256, 3))
+  warnings.warn(msg)
+1/1 ━━━━━━━━━━━━━━━━━━━━ 4s 4s/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_01.jpg:
+	 iou [soft]:
+		 bg: 0.8922 [0.8922]
+		 brt: 0.0001 [0.0001]
+		 ccp/kub: 0.5785 [0.5785]
+		 gl: 0.0596 [0.0596]
+		 py/mrc: 0.9438 [0.9438]
+		 sph: 0.7211 [0.7211]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4564 [0.4564]
+	 acc: 0.9075
+
+Metrics with void borders for test_01.jpg:
+	 iou [soft]:
+		 bg: 0.8922 [0.8922]
+		 brt: 0.0001 [0.0001]
+		 ccp/kub: 0.5785 [0.5785]
+		 gl: 0.0596 [0.0596]
+		 py/mrc: 0.9438 [0.9438]
+		 sph: 0.7211 [0.7211]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4564 [0.4564]
+	 acc: 0.9075
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 55ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_02.jpg:
+	 iou [soft]:
+		 bg: 0.7756 [0.7756]
+		 brt: 1.0000 [1.0000]
+		 ccp/kub: 0.1510 [0.1510]
+		 gl: 0.0495 [0.0495]
+		 py/mrc: 0.8239 [0.8239]
+		 sph: 0.4330 [0.4330]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4619 [0.4619]
+	 acc: 0.8051
+
+Metrics with void borders for test_02.jpg:
+	 iou [soft]:
+		 bg: 0.7756 [0.7756]
+		 brt: 1.0000 [1.0000]
+		 ccp/kub: 0.1510 [0.1510]
+		 gl: 0.0495 [0.0495]
+		 py/mrc: 0.8239 [0.8239]
+		 sph: 0.4330 [0.4330]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4619 [0.4619]
+	 acc: 0.8051
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 53ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_03.jpg:
+	 iou [soft]:
+		 bg: 0.9122 [0.9122]
+		 brt: 1.0000 [1.0000]
+		 ccp/kub: 0.0000 [0.0000]
+		 gl: 0.3001 [0.3001]
+		 py/mrc: 0.8697 [0.8697]
+		 sph: 0.8854 [0.8854]
+		 tnt/ttr: 0.7037 [0.7037]
+	 mean iou [soft]: 0.6673 [0.6673]
+	 acc: 0.8860
+
+Metrics with void borders for test_03.jpg:
+	 iou [soft]:
+		 bg: 0.9122 [0.9122]
+		 brt: 1.0000 [1.0000]
+		 ccp/kub: 0.0000 [0.0000]
+		 gl: 0.3001 [0.3001]
+		 py/mrc: 0.8697 [0.8697]
+		 sph: 0.8854 [0.8854]
+		 tnt/ttr: 0.7037 [0.7037]
+	 mean iou [soft]: 0.6673 [0.6673]
+	 acc: 0.8860
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 63ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_04.jpg:
+	 iou [soft]:
+		 bg: 0.7056 [0.7056]
+		 brt: 0.0001 [0.0001]
+		 ccp/kub: 0.0000 [0.0000]
+		 gl: 0.5058 [0.5058]
+		 py/mrc: 0.8890 [0.8890]
+		 sph: 0.2216 [0.2216]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.3317 [0.3317]
+	 acc: 0.7415
+
+Metrics with void borders for test_04.jpg:
+	 iou [soft]:
+		 bg: 0.7056 [0.7056]
+		 brt: 0.0001 [0.0001]
+		 ccp/kub: 0.0000 [0.0000]
+		 gl: 0.5058 [0.5058]
+		 py/mrc: 0.8890 [0.8890]
+		 sph: 0.2216 [0.2216]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.3317 [0.3317]
+	 acc: 0.7415
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 68ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_05.jpg:
+	 iou [soft]:
+		 bg: 0.7458 [0.7458]
+		 brt: 0.0010 [0.0010]
+		 ccp/kub: 0.5297 [0.5297]
+		 gl: 0.3408 [0.3408]
+		 py/mrc: 0.9669 [0.9669]
+		 sph: 0.9051 [0.9051]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4985 [0.4985]
+	 acc: 0.9447
+
+Metrics with void borders for test_05.jpg:
+	 iou [soft]:
+		 bg: 0.7458 [0.7458]
+		 brt: 0.0010 [0.0010]
+		 ccp/kub: 0.5297 [0.5297]
+		 gl: 0.3408 [0.3408]
+		 py/mrc: 0.9669 [0.9669]
+		 sph: 0.9051 [0.9051]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4985 [0.4985]
+	 acc: 0.9447
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 53ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_06.jpg:
+	 iou [soft]:
+		 bg: 0.8456 [0.8456]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.7294 [0.7294]
+		 gl: 0.1709 [0.1709]
+		 py/mrc: 0.9214 [0.9214]
+		 sph: 0.7448 [0.7448]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4875 [0.4875]
+	 acc: 0.8674
+
+Metrics with void borders for test_06.jpg:
+	 iou [soft]:
+		 bg: 0.8456 [0.8456]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.7294 [0.7294]
+		 gl: 0.1709 [0.1709]
+		 py/mrc: 0.9214 [0.9214]
+		 sph: 0.7448 [0.7448]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4875 [0.4875]
+	 acc: 0.8674
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 53ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_07.jpg:
+	 iou [soft]:
+		 bg: 0.8719 [0.8719]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.4761 [0.4761]
+		 gl: 0.4250 [0.4250]
+		 py/mrc: 0.9630 [0.9630]
+		 sph: 0.7347 [0.7347]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4958 [0.4958]
+	 acc: 0.9260
+
+Metrics with void borders for test_07.jpg:
+	 iou [soft]:
+		 bg: 0.8719 [0.8719]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.4761 [0.4761]
+		 gl: 0.4250 [0.4250]
+		 py/mrc: 0.9630 [0.9630]
+		 sph: 0.7347 [0.7347]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4958 [0.4958]
+	 acc: 0.9260
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 56ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_08.jpg:
+	 iou [soft]:
+		 bg: 0.4997 [0.4997]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.7155 [0.7155]
+		 gl: 0.6599 [0.6599]
+		 py/mrc: 0.9814 [0.9814]
+		 sph: 0.7370 [0.7370]
+		 tnt/ttr: 1.0000 [1.0000]
+	 mean iou [soft]: 0.6562 [0.6562]
+	 acc: 0.8925
+
+Metrics with void borders for test_08.jpg:
+	 iou [soft]:
+		 bg: 0.4997 [0.4997]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.7155 [0.7155]
+		 gl: 0.6599 [0.6599]
+		 py/mrc: 0.9814 [0.9814]
+		 sph: 0.7370 [0.7370]
+		 tnt/ttr: 1.0000 [1.0000]
+	 mean iou [soft]: 0.6562 [0.6562]
+	 acc: 0.8925
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 57ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_09.jpg:
+	 iou [soft]:
+		 bg: 0.9020 [0.9020]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.8330 [0.8330]
+		 gl: 0.0011 [0.0011]
+		 py/mrc: 0.9434 [0.9434]
+		 sph: 0.6316 [0.6316]
+		 tnt/ttr: 0.0250 [0.0250]
+	 mean iou [soft]: 0.4766 [0.4766]
+	 acc: 0.9044
+
+Metrics with void borders for test_09.jpg:
+	 iou [soft]:
+		 bg: 0.9020 [0.9020]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.8330 [0.8330]
+		 gl: 0.0011 [0.0011]
+		 py/mrc: 0.9434 [0.9434]
+		 sph: 0.6316 [0.6316]
+		 tnt/ttr: 0.0250 [0.0250]
+	 mean iou [soft]: 0.4766 [0.4766]
+	 acc: 0.9044
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 53ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_10.jpg:
+	 iou [soft]:
+		 bg: 0.8341 [0.8341]
+		 brt: 0.0002 [0.0002]
+		 ccp/kub: 0.5123 [0.5123]
+		 gl: 0.0994 [0.0994]
+		 py/mrc: 0.9430 [0.9430]
+		 sph: 0.7312 [0.7312]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4458 [0.4458]
+	 acc: 0.8902
+
+Metrics with void borders for test_10.jpg:
+	 iou [soft]:
+		 bg: 0.8341 [0.8341]
+		 brt: 0.0002 [0.0002]
+		 ccp/kub: 0.5123 [0.5123]
+		 gl: 0.0994 [0.0994]
+		 py/mrc: 0.9430 [0.9430]
+		 sph: 0.7312 [0.7312]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4458 [0.4458]
+	 acc: 0.8902
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 53ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_11.jpg:
+	 iou [soft]:
+		 bg: 0.8800 [0.8800]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.7535 [0.7535]
+		 gl: 0.1926 [0.1926]
+		 py/mrc: 0.9534 [0.9534]
+		 sph: 0.7293 [0.7293]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.5013 [0.5013]
+	 acc: 0.9063
+
+Metrics with void borders for test_11.jpg:
+	 iou [soft]:
+		 bg: 0.8800 [0.8800]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.7535 [0.7535]
+		 gl: 0.1926 [0.1926]
+		 py/mrc: 0.9534 [0.9534]
+		 sph: 0.7293 [0.7293]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.5013 [0.5013]
+	 acc: 0.9063
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 74ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_12.jpg:
+	 iou [soft]:
+		 bg: 0.6708 [0.6708]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.6276 [0.6276]
+		 gl: 0.2473 [0.2473]
+		 py/mrc: 0.9243 [0.9243]
+		 sph: 0.6012 [0.6012]
+		 tnt/ttr: 0.5268 [0.5268]
+	 mean iou [soft]: 0.5140 [0.5140]
+	 acc: 0.8010
+
+Metrics with void borders for test_12.jpg:
+	 iou [soft]:
+		 bg: 0.6708 [0.6708]
+		 brt: 0.0000 [0.0000]
+		 ccp/kub: 0.6276 [0.6276]
+		 gl: 0.2473 [0.2473]
+		 py/mrc: 0.9243 [0.9243]
+		 sph: 0.6012 [0.6012]
+		 tnt/ttr: 0.5268 [0.5268]
+	 mean iou [soft]: 0.5140 [0.5140]
+	 acc: 0.8010
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_13.jpg:
+	 iou [soft]:
+		 bg: 0.9667 [0.9667]
+		 brt: 0.0001 [0.0001]
+		 ccp/kub: 0.5588 [0.5588]
+		 gl: 0.0000 [0.0000]
+		 py/mrc: 0.5077 [0.5077]
+		 sph: 0.8389 [0.8389]
+		 tnt/ttr: 0.6587 [0.6587]
+	 mean iou [soft]: 0.5044 [0.5044]
+	 acc: 0.9200
+
+Metrics with void borders for test_13.jpg:
+	 iou [soft]:
+		 bg: 0.9667 [0.9667]
+		 brt: 0.0001 [0.0001]
+		 ccp/kub: 0.5588 [0.5588]
+		 gl: 0.0000 [0.0000]
+		 py/mrc: 0.5077 [0.5077]
+		 sph: 0.8389 [0.8389]
+		 tnt/ttr: 0.6587 [0.6587]
+	 mean iou [soft]: 0.5044 [0.5044]
+	 acc: 0.9200
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 53ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_14.jpg:
+	 iou [soft]:
+		 bg: 0.8923 [0.8923]
+		 brt: 0.5118 [0.5118]
+		 ccp/kub: 0.0267 [0.0267]
+		 gl: 0.2474 [0.2474]
+		 py/mrc: 0.9643 [0.9643]
+		 sph: 0.8490 [0.8490]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4988 [0.4988]
+	 acc: 0.9385
+
+Metrics with void borders for test_14.jpg:
+	 iou [soft]:
+		 bg: 0.8923 [0.8923]
+		 brt: 0.5118 [0.5118]
+		 ccp/kub: 0.0267 [0.0267]
+		 gl: 0.2474 [0.2474]
+		 py/mrc: 0.9643 [0.9643]
+		 sph: 0.8490 [0.8490]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4988 [0.4988]
+	 acc: 0.9385
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 56ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_15.jpg:
+	 iou [soft]:
+		 bg: 0.9478 [0.9478]
+		 brt: 0.7191 [0.7191]
+		 ccp/kub: 0.0000 [0.0000]
+		 gl: 0.0000 [0.0000]
+		 py/mrc: 0.9183 [0.9183]
+		 sph: 0.8626 [0.8626]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4925 [0.4925]
+	 acc: 0.9289
+
+Metrics with void borders for test_15.jpg:
+	 iou [soft]:
+		 bg: 0.9478 [0.9478]
+		 brt: 0.7191 [0.7191]
+		 ccp/kub: 0.0000 [0.0000]
+		 gl: 0.0000 [0.0000]
+		 py/mrc: 0.9183 [0.9183]
+		 sph: 0.8626 [0.8626]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.4925 [0.4925]
+	 acc: 0.9289
+
+--------------------------------------------------
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 55ms/step
+Pred shape: (256, 256)
+Mask resized shape: (256, 256)
+Pred one-hot shape: (256, 256, 7)
+Mask one-hot shape: (256, 256, 7)
+Metrics for test_16.jpg:
+	 iou [soft]:
+		 bg: 0.8921 [0.8921]
+		 brt: 0.6340 [0.6340]
+		 ccp/kub: 0.0830 [0.0830]
+		 gl: 0.0000 [0.0000]
+		 py/mrc: 0.0000 [0.0000]
+		 sph: 0.9587 [0.9587]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.3668 [0.3668]
+	 acc: 0.7318
+
+Metrics with void borders for test_16.jpg:
+	 iou [soft]:
+		 bg: 0.8921 [0.8921]
+		 brt: 0.6340 [0.6340]
+		 ccp/kub: 0.0830 [0.0830]
+		 gl: 0.0000 [0.0000]
+		 py/mrc: 0.0000 [0.0000]
+		 sph: 0.9587 [0.9587]
+		 tnt/ttr: 0.0000 [0.0000]
+	 mean iou [soft]: 0.3668 [0.3668]
+	 acc: 0.7318
+
+--------------------------------------------------
